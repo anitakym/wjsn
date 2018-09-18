@@ -1,0 +1,4 @@
+/* pages/classic/classic.wxss */
+.bc_green {
+  background: green;
+}

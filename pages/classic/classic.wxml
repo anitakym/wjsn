@@ -1,0 +1,6 @@
+<!--pages/classic/classic.wxml-->
+<view style='flex-direction:row;'>
+  <view class='bc_green'>1</view>
+  <view>2</view>
+  <view>3</view>
+</view>
