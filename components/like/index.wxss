@@ -1,0 +1,20 @@
+/* components/like/index.wxss */
+.container-like {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10rpx;
+}
+.icon-like {
+  width: 40rpx;
+  height: 40rpx;
+}
+.count-like {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #bbb;
+  position: relative;
+  bottom: 10rpx;
+  left: 6rpx;
+
+
+}
