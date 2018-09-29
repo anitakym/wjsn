@@ -3,6 +3,7 @@
   display: inline-flex;
   flex-direction: row;
   padding: 10rpx;
+  width: 90rpx;
 }
 .icon-like {
   width: 40rpx;

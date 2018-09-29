@@ -36,6 +36,11 @@ Component({
         isLike: !isLike
       })
 
+      let behavior = this.properties.isLike ? 'like' : 'cancel'
+      this.triggerEvent('like', {
+        behavior: behavior
+      },{})
+
     }
 
   }

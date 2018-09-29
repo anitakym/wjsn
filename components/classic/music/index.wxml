@@ -1,0 +1,6 @@
+<view>
+<image src="{{img}}"></image>
+<image src="{{playImg}}"></image>
+<image src="images/logo.jpg"></image>
+<text>{{content}}</text>
+</view>

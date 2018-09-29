@@ -10,6 +10,6 @@
     "navigationBarTitleText": "WJSN",
     "navigationBarTextStyle": "black",
     "navigationStyle": "default",
-    "backgroundColor": "#F00"
+    "backgroundColor": "#000"
   }
 }
