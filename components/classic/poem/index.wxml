@@ -1,2 +1,5 @@
-<!--components/classic/poem/index.wxml-->
-<text>components/classic/poem/index.wxml</text>
+<view class="classic-container">
+  <image src="{{img}}" class="classic-item" mode="aspectFill"></image>
+  <image src="images/logo.jpg" class="tag"></image>
+  <text class="content">{{content}}</text>
+</view>

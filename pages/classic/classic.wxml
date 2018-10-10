@@ -5,5 +5,5 @@
 </view>
 
 <v-movie img="{{classicData.image}}" content="{{classicData.content}}"/>
-<v-navi bind:left="onNext" bind:right="onRrevious" class="navi" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}"/>
+<v-navi bind:left="onNext" bind:right="onPrevious" class="navi" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}"/>
 </view>
