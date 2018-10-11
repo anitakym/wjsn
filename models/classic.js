@@ -9,14 +9,15 @@ class ClassicModel extends HTTP {
       }
     })
   }
-  getPrevious(index, cb) {
+  getClassic(index, nextOrPrevious, cb) {
     this.request({
-      url: '/classic/' + index + '/previous',
+      url: '/classic/' + index + '/' + nextOrPrevious,
       success: (res) => {
         cb(res)
       }
     })
   }
+  
   isFirst(index) {
     return index == 1
 
@@ -24,7 +25,6 @@ class ClassicModel extends HTTP {
   isLatest(index) {
     let latestIndex = this._setLatestIndex()
     return latestIndex == index
-
   }
   _setLatestIndex(index) {
     wx.setStorageSync('latest', index) 
